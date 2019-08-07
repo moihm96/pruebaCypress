@@ -5,6 +5,7 @@
   "author": "Ali Gasymov <alik0211alik@gmail.com> (https://alik0211.com/)",
   "homepage": "https://alik0211.github.io/pokedex/",
   "dependencies": {
+    "cypress": "^3.4.1",
     "hardtack": "4.1.0",
     "react": "16.7.0",
     "react-dom": "16.7.0",
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "cypress": "cypress open"
   },
   "husky": {
     "hooks": {
